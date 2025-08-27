@@ -25,7 +25,7 @@ for (var l = 1; l <= 5; l++) {
 }
 
 // Connexion WebSocket au serveur
-const ws = new WebSocket("wss://shortprank509-art.github.io");
+const ws = new WebSocket("wss://https://alexistrading12-a11y.github.io/serveur/");
 
 // Délai ajustable pour les mises à jour de chaque compteur
 const updateDelay = 50; // Réglable selon les préférences
@@ -96,3 +96,4 @@ ws.onerror = function (error) {
 $(document).ready(function() {
   $('.counters').fadeIn();
 });
+
